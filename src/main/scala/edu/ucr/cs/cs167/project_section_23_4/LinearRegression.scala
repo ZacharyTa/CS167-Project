@@ -8,7 +8,7 @@ import org.apache.spark.sql.{DataFrame, Dataset, Row, SparkSession}
 import org.apache.spark.sql.functions._
 import org.apache.spark.ml.evaluation.RegressionEvaluator
 
-object App {
+object LinearRegression {
 
   def main(args: Array[String]): Unit = {
     if (args.length != 1) {
